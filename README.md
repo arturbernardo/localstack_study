@@ -1,6 +1,6 @@
-'''docker-compose up -d'''
+´´´docker-compose up -d´´´
 
-'''aws configure'''
+´´´aws configure´´´
 
 > AWS Access Key ID: test
 > AWS Secret Access Key: test
@@ -18,8 +18,8 @@ aws --endpoint-url=http://localhost:4566 s3 cp arquivo.txt s3://meu-bucket-local
 
 
 # init-s3.sh cria quando subir o docker
-'''#!/bin/bash
-awslocal s3 mb s3://meu-bucket-local'''
+´´´#!/bin/bash
+awslocal s3 mb s3://meu-bucket-local´´´
 
 ## Montar volume no docker-compose.yml 
 volumes:
